@@ -1,16 +1,17 @@
 #!/usr/bin/python3
 """Pascal Triangle Interview Challenge"""
 
+
 def pascal_triangle(n):
     """
     Returns a list of lists of integers representing Pascal's triangle of n.
-    
+
     Args:
         n (int): The number of rows in Pascal's triangle.
-        
+
     Returns:
-        List[List[int]]: A list of lists of integers representing Pascal's triangle up to n rows.
-        Returns an empty list if n <= 0.
+        List[List[int]]: A list of lists of integers representing Pascal's
+        triangle up to n rows. Returns an empty list if n <= 0.
     """
     triangle = []
     for i in range(n):
